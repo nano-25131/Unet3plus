@@ -44,6 +44,7 @@ HYPER_PARAMETERS:
   EPOCHS: 100          # 迭代次数
   BATCH_SIZE: 16       # 每个 GPU 的批量大小
   LEARNING_RATE: 5e-5  # 学习率
+```
 ---
 ## 进行训练
 
