@@ -44,5 +44,15 @@ HYPER_PARAMETERS:
   EPOCHS: 100          # 迭代次数
   BATCH_SIZE: 16       # 每个 GPU 的批量大小
   LEARNING_RATE: 5e-5  # 学习率
+---
+## 进行训练
 
-最后不要忘记 pip install -r requirements.txt
+pip install -r requirements.txt
+
+python trian.py
+
+```plaintext
+like this
+
+Epoch 1: val_activation_dice_coef improved from -inf to 0.56526, saving model to /hy-tmp/unet3p/checkpoint/model_unet3plus_deepsup.hdf5
+2000/2000 [==============================] - 729s
