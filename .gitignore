@@ -7,10 +7,20 @@ checkpoint/*.csv
 !checkpoint/tb_logs/.gitkeep
 
 #data/*
-/data/**/*.png
-/data/**/*.jpg
-/data/**/*.nii
-!data/**/.gitkeep
+/data/train/images/*.png
+/data/train/masks/*.png
+/data/val/images/*.png
+/data/val/masks/*.png
+
+/data/train/images/*.nii
+/data/train/masks/*.nii
+/data/val/images/*.nii
+/data/val/masks/*.nii
+
+/data/train/images/*.gitkeep
+/data/train/masks/*.gitkeep
+/data/val/images/*.gitkeep
+/data/val/masks/*.gitkeep
 
 data_preparation/verify_preprocess_data.ipynb
 old_data_preperation/
