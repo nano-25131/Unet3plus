@@ -15,6 +15,8 @@ Unet3plus 是基于 TensorFlow 实现的图像分割网络，适用于医学图�
 基于
 Ubuntu 20.04.5 LTS
 
+tensorflow==2.13.1
+
 NVIDIA GeForce RTX 3060, 1
 
 主要功能包括模型训练、验证和测试。
