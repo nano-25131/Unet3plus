@@ -3,6 +3,9 @@
 **简介**  
 Unet3plus 是基于 TensorFlow 实现的图像分割网络，适用于医学图像分割、遥感图像分割等任务。
 
+![模型结构图](unet3p_architecture.png)
+
+
 ---
 
 ## 使用说明
