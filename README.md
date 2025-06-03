@@ -7,7 +7,14 @@ Unet3plus 是基于 TensorFlow 实现的图像分割网络，适用于医学图�
 
 ## 使用说明
 
-本项目使用 TensorFlow 框架实现，主要功能包括模型训练、验证和测试。
+本项目使用 TensorFlow 框架实现
+
+基于
+Ubuntu 20.04.5 LTS
+
+NVIDIA GeForce RTX 3060, 1
+
+主要功能包括模型训练、验证和测试。
 
 ---
 
@@ -38,3 +45,16 @@ HYPER_PARAMETERS:
   EPOCHS: 100          # 迭代次数
   BATCH_SIZE: 16       # 每个 GPU 的批量大小
   LEARNING_RATE: 5e-5  # 学习率
+```
+---
+## 进行训练
+
+pip install -r requirements.txt
+
+python trian.py
+
+```plaintext
+like this
+
+Epoch 1: val_activation_dice_coef improved from -inf to 0.56526, saving model to /hy-tmp/unet3p/checkpoint/model_unet3plus_deepsup.hdf5
+2000/2000 [==============================] - 729s
